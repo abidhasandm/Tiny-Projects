@@ -1,0 +1,172 @@
+/* Default CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: rgb(68, 67, 67);
+}
+
+/* Element CSS */
+
+a, p, li, button{
+    text-decoration: none;
+    color: white;
+}
+
+/* Header-1 CSS */
+
+header-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LOGO CSS */
+
+.logo-1{
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    letter-spacing: .2em;
+}
+
+/* MENU CSS */
+
+.nav-links-1 li{
+    list-style: none;
+    display: inline-block;
+    transition: all .3s ease 0s;
+}
+
+.nav-links-1 li a{
+    margin: 0 15px;
+}
+
+.nav-links-1 li a:hover{
+    color: #ff5733;
+}
+
+/* BUTTON CSS */
+
+.btn-1{
+    border: none;
+    background-color: #ff5733;
+    margin-right: 20px;
+    padding: 6px 25px;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: all .3s ease 0s;
+}
+
+.btn-1:hover{
+    background-color: #db3712;
+}
+
+/* Header-2 CSS */
+
+header-2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* LOGO CSS */
+
+.logo-2{
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    letter-spacing: .2em;
+    margin-right: auto;
+}
+
+/* MENU CSS */
+
+.nav-links-2 li{
+    list-style: none;
+    display: inline-block;
+    transition: all .3s ease 0s;
+}
+
+.nav-links-2 li a{
+    margin: 0 15px;
+}
+
+.nav-links-2 li a:hover{
+    color: #ff5733;
+}
+
+/* BUTTON CSS */
+
+.btn-2{
+    border: none;
+    background-color: #ff5733;
+    margin-right: 20px;
+    padding: 6px 25px;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: all .3s ease 0s;
+}
+
+.btn-2:hover{
+    background-color: #db3712;
+}
+
+/* Header-3 CSS */
+
+header-3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LOGO CSS */
+
+.logo-3{
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    letter-spacing: .2em;
+    order: 3;
+}
+/* MENU CSS */
+
+.nav{
+    order: 1;
+}
+
+.nav-links-3 li{
+    list-style: none;
+    display: inline-block;
+    transition: all .3s ease 0s;
+}
+
+.nav-links-3 li a{
+    margin: 0 15px;
+}
+
+.nav-links-3 li a:hover{
+    color: #ff5733;
+}
+
+/* BUTTON CSS */
+
+.btn-3{
+    border: none;
+    background-color: #ff5733;
+    margin-right: 20px;
+    padding: 6px 25px;
+    border-radius: 15px;
+    font-weight: bold;
+    transition: all .3s ease 0s;
+    order: 2;
+}
+
+.btn-3:hover{
+    background-color: #db3712;
+}
